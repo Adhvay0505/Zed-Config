@@ -1,0 +1,73 @@
+{
+  // Panel layout (as from the article)
+  "notification_panel": { "dock": "left" },
+  "chat_panel": { "dock": "left" },
+  "outline_panel": { "dock": "right" },
+  "project_panel": { "dock": "right" },
+
+  // Editor and UI fonts
+  "ui_font_family": "JetBrains Mono",
+  "buffer_font_family": "JetBrains Mono",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+
+  // Keymap / mode
+  "vim_mode": true,
+  // (optional) "base_keymap": "VSCode",
+
+  // Theme settings
+  "theme": {
+    "mode": "system",
+    "light": "Gruvbox Light",
+    "dark": "Gruvbox Dark Hard"
+  },
+
+  // Optionally disable telemetry
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+
+  // Transparency + blur + glassy background (tuned, not pure black)
+  "experimental.theme_overrides": {
+    "background.appearance": "blurred",
+
+    // Use a slightly tinted, semi-transparent background (not pure black)
+    "background": "#1D2021CC",
+    "editor.background": "#1D2021CC",
+    "panel.background": "#1D2021CC",
+    "sidebar.background": "#1D2021CC",
+    "tab_bar.background": "#1D2021CC",
+    "title_bar.background": "#1D2021CC",
+    "status_bar.background": "#1D2021CC",
+    "terminal.background": "#1D2021CC",
+
+    // Editor UI (gutter, etc.)
+    "gutter.background": "#1D2021CC",
+    "gutter.active_line.background": "#1D2021CC",
+    "buffer_line.background": "#00000000",
+
+    // Tabs
+    "tab.active.background": "#1D2021CC",
+    "tab.inactive.background": "#1D2021CC",
+    "tab_bar.separator": "#00000000",
+
+    // Sidebar parts
+    "sidebar.section.background": "#1D2021CC",
+    "sidebar.section_header.background": "#1D2021CC",
+
+    // Popups / menus / overlays
+    "popover.background": "#1D2021CC",
+    "autocomplete.background": "#1D2021CC",
+    "menu.background": "#1D2021CC",
+    "overlay.background": "#1D2021CC",
+    "command_palette.background": "#1D2021CC",
+    "modal.background": "#1D2021CC",
+
+    // Borders / separators — make them invisible
+    "border": "#00000000",
+    "panel.border": "#00000000",
+    "tab.border": "#00000000",
+    "sidebar.border": "#00000000"
+  }
+}
